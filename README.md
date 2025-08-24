@@ -1,27 +1,41 @@
-# Projeto de Portfólio Temporário
+# 🌐 Personal Portfólio
 
-Este é um **site de portfólio pessoal temporário** desenvolvido com **HTML e CSS**.  
+Portfólio pessoal desenvolvido por **Nicolas Antunes**, com o objetivo de apresentar habilidades, projetos e informações de contato de forma organizada e profissional.  
 
-## 🌐 Visualização Online
+---
 
-Em breve...
+## 📌 Descrição
+O projeto tem como objetivo servir como uma vitrine online para destacar minha trajetória, habilidades e principais projetos de desenvolvimento.  
 
-## 📁 Funcionalidades
+---
 
-- Layout responsivo  
-- Design limpo e minimalista  
-- Seções Sobre Mim, Projetos e Contato  
-- Apenas HTML e CSS
+## ✨ Funcionalidades
+- ✅ Design moderno e responsivo  
+- ✅ Dark Mode integrado  
+- ✅ Estrutura simples e intuitiva  
+- ✅ Seções organizadas: Home, Sobre, Projetos e Contato  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
 
-- HTML5  
-- CSS3
+---
+
+## 📂 Estrutura do Projeto
+- **Home** → Introdução e apresentação rápida  
+- **Sobre** → Informações pessoais e trajetória profissional  
+- **Projetos** → Principais trabalhos e cases desenvolvidos  
+- **Contato** → Links e formas de comunicação  
+---
 
 ## 📌 Status
 
 🚧 Este é um projeto **temporário** e ainda está sendo melhorado.  
 A versão final do portfólio incluirá JavaScript e uma interface mais completa.
+A espera da aceitação de uso do dominio online.
 
 ---
 

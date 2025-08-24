@@ -187,3 +187,21 @@ body {
     text-decoration: none;
     color: #2563eb;
 }
+.footer {
+  background: linear-gradient(
+    80deg, rgba(3, 3, 3, 0.822));
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+.footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: rgba(251,255,0);
+text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
