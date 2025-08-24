@@ -5,37 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nicolas Antunes</title>
   <link rel="shortcut icon" href="personal-portifolio/assets/icons/N.png" type="image/x-icon">
-  <link rel="stylesheet" type='text/css' href='personal-portifolio/src/css/style.css'>
-  <!-- Fontes -->
+  <link rel="stylesheet" href="personal-portifolio/src/css/style.css">
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Fontes -->
-  <script name="js" src="personal-portifolio/src/js/script.js"></script>
+  <script src="personal-portifolio/src/js/script.js"></script>
 </head>
 <body>
   <header class="header">
-    <div class="header-bg"></div>
-    <div class="header-inner">
-      <a href="#" class="logo"><span class="highlight">N</span>icolas Antunes</a>
-      <nav class="nav">
-        <a href="#sobre" class="nav-link">Sobre</a>
-        <a href="#projetos" class="nav-link">Projetos</a>
-        <a href="#contato" class="nav-link">Contato</a>
-      </nav>
-      <!-- Mobile -->
-      <button class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="mobile-nav" id="mobileNav">
-        <a href="#sobre" class="mobile-nav-link">Sobre</a>
-        <a href="#projetos" class="mobile-nav-link">Projetos</a>
-        <a href="#contato" class="mobile-nav-link">Contato</a>
-      </nav>
-      <!-- Mobile -->
-    </div>
-  </header>  
+    <a href="#content" class="logo"><span class="highlight">N</span>icolas A.</a>
+    <nav class="nav">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="content" class="content">
+    <br>
+    <h1 class="Titulo">Olá, me chamo Nicolas Antunes</h1>
+    <p>Bem-vindo ao meu portfólio! Aqui você encontra meus projetos, habilidades e contatos.</p>
+  </main>
+  
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <h1>Sobre mim</h1>
+    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e desenvolvimento web. Busco criar soluções eficientes e estéticas para todos os tipos de projetos.</p>
+  </section>
+  
+  <!-- Habilidades -->
+  <section id="habilidades" class="section">
+    <h1>Linguagens e Tecnologias</h1>
+    <br>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C#</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section">
+    <h1>Projetos</h1>
+    <article class="project-card">
+      <h2>Projeto 1</h2>
+      <p>Descrição do projeto 1</p>
+      <a href="#" class="project-link">Ver Código</a>
+      <a href="#" class="project-link">Demo</a>
+    </article>
+    <article class="project-card">
+      <h2>Projeto 2</h2>
+      <p>Descrição do projeto 2</p>
+      <a href="#" class="project-link">Ver Código</a>
+      <a href="#" class="project-link">Demo</a>
+    </article>
+  </section>
 </body>
 </html>
