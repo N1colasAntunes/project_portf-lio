@@ -1,8 +1,8 @@
 *{
-  margin: 0;          /* Zera margens */
-  padding: 0;         /* Zera espaçamentos internos */
-  box-sizing: border-box; /* Faz largura/altura incluir padding e border */
-  font-family: 'Inter', sans-serif; /* Define fonte global */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 
 }
 body{
@@ -69,21 +69,20 @@ main {
   margin-bottom: 100px;
 }
 aside{
-  margin-left: 75px;
+  margin-left: 60px;
 }
 aside h2{
-  font-size: 30px;
+  font-size: 32px;
+  width: 157px;
+  height: 117px;
   color: #fff;
-  width: 130px;
   margin-left: 50px;
   margin-top: 90px;
 }
 aside h1{
-  font-size: 55px;
+  font-size: 70px;
   color: #fff;
-  width: 300px;
   margin-left: 110px;
-  margin-top: 20px;
 }
 #links-sociais {
   display: flex;
@@ -104,7 +103,49 @@ figure img {
   height: 400px;
   object-fit: cover;
   border-radius: 20px;
-  margin-right: 140px;
+  margin-right: 100px;
   margin-top: 90px;
   box-shadow: 0 0 15px #1E90FF; /* sombra azul */
+}
+#sobre{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+.sublinhado{
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+h2 #titulo-sobre{
+  color: #43A9E8;
+}
+
+
+
+.linha-vertical {
+  width: 3px;
+  height: 550px;              /* altura da linha vertical */
+  background: #43A9E8;        /* cor da linha */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* distribui as setas */
+  position: relative;
+  margin: 20px;
+}
+.seta {
+  position: relative;
+  width: 50px;                /* comprimento da linha horizontal */
+  height: 2px;
+  background: #43A9E8;
+  margin-left: 2px;           /* desloca da linha vertical */
+}
+.seta::after {
+  content: "";
+  position: absolute;
+  right: -6px;                /* posição do bico */
+  top: -3.6px;
+  border: solid #43A9E8;
+  border-width: 1px 1px 0 0;
+  padding: 4px;
+  transform: rotate(45deg);   /* cria a flecha */
 }
