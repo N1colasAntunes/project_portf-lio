@@ -122,16 +122,13 @@ h2 #titulo-sobre{
 
 
 
-.linha-vertical {
-  width: 3px;
-  height: 550px;              /* altura da linha vertical */
-  background: #43A9E8;        /* cor da linha */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; /* distribui as setas */
-  position: relative;
-  margin: 20px;
-}
+
+
+
+
+
+
+
 .seta {
   position: relative;
   width: 50px;                /* comprimento da linha horizontal */
